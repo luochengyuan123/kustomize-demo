@@ -18,8 +18,8 @@ spec:
         imagePullPolicy: IfNotPresent
         resources:
           limits:
-            cpu: 2
-            memory: 2Gi
+            cpu: "100m"
+            memory: "200Mi"
       #   volumeMounts:
       #   - name: config
       #     mountPath: /etc/nginx/nginx.conf
